@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# Local configuration and runtime data
+settings.json
+*.log
+
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Other IDEs and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# AI assistants, agent state, and generated context
+.ai/
+.agents/
+.codex/
+.claude/
+.cursor/
+.windsurf/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+*.prompt
+*.prompts
+*_ai.*
+ai_*
+
+# Local verification caches
+.uv-cache/
+.uv-python/
+.codebase-memory/

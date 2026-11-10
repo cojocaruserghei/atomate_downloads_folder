@@ -1,0 +1,24 @@
+{
+  "download_folder": "C:/Users/your-name/Downloads",
+  "destinations": {
+    "images": "Sorted/Images",
+    "documents": "Sorted/Documents",
+    "spreadsheets": "Sorted/Spreadsheets",
+    "archives": "Sorted/Archives",
+    "audio": "Sorted/Audio",
+    "video": "Sorted/Video",
+    "applications": "Sorted/Applications",
+    "other": "Sorted/Other"
+  },
+  "extensions": {
+    "images": ["jpg", "jpeg", "png", "gif", "webp", "svg"],
+    "documents": ["pdf", "doc", "docx", "txt", "rtf", "odt", "md"],
+    "spreadsheets": ["xls", "xlsx", "csv", "ods"],
+    "archives": ["zip", "rar", "7z", "tar", "gz", "bz2"],
+    "audio": ["mp3", "wav", "flac", "m4a", "aac", "ogg"],
+    "video": ["mp4", "mkv", "avi", "mov", "wmv", "webm"],
+    "applications": ["exe", "msi", "dmg", "pkg", "deb", "rpm"]
+  },
+  "poll_interval_seconds": 2,
+  "stability_checks": 2
+}
